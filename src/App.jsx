@@ -112,9 +112,9 @@ function DrawerAppBar(props) {
               variant="contained"
               tabIndex={-1}
               startIcon={<CloudDownloadIcon />}
-              href="/files/MANGARING_RESUME.pdf" // Replace with actual file path or route
+              href="/files/Yman_Mangaring.pdf" // Replace with actual file path or route
               download="MANGARING_CV.pdf"
-              sx={{ ml: 2, fontSize: { xs: '0.7rem', sm: '0.8rem' }, px: { xs: 1, sm: 2 }, backgroundColor: '#121212' }}
+              sx={{ ml: 2, fontSize: { xs: '0.7rem', sm: '0.8rem' }, px: { xs: 1, sm: 2 }, backgroundColor: 'bg.primary', color: 'txt.secondary' }}
             >
               Download CV
             </Button>

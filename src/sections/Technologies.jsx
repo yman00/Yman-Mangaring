@@ -68,7 +68,7 @@ const Technologies = ({ id }) => {
         flexDirection: 'column',
         width: '100%',
         // height: { xs: '40vh', sm: '45vh' },
-        backgroundColor: '#121212',
+        backgroundColor: 'bg.primary',
         justifyContent: 'center',
         alignItems: 'center',
         color: 'gray',
@@ -80,7 +80,7 @@ const Technologies = ({ id }) => {
         width: '100%', 
         pt: {xs:'none',
         sm:'4rem', fontFamily: 'Tekur',
-        color: '#d2824a'}}}>
+        color: 'txt.primary'}}}>
         TECHNOLOGIES
       </Box>
       {/* Seamless Marquee for Tech Stack */}

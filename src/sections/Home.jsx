@@ -16,16 +16,16 @@ const Home = ({id}) => {
      flexDirection:{xs:'column', sm:'row'},
      width: '100%',
      height: '80vh',
-     backgroundColor: '#121212',
+     backgroundColor: 'bg.primary',
      justifyContent: 'center',
      alignItems: {xs:'center', sm:'end'},
      color: 'gray',
      gap: 1,
      p: 1
     }}>
-      <Box sx={{display: 'grid', width: {xs:'90%', sm:'100%'}, height: {xs:'90%', sm:'90%'}, backgroundColor: '#121212', placeItems: 'center'}}>
+      <Box sx={{display: 'grid', width: {xs:'90%', sm:'100%'}, height: {xs:'90%', sm:'90%'}, backgroundColor: 'bg.primary', placeItems: 'center'}}>
         <BlurText
-        text="P O R T F O L I O."
+        text="@YmanPurdy"
         delay={150}
         animateBy="words"
         direction="top"

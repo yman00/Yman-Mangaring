@@ -33,7 +33,7 @@ const Contact = ({ id }) => {
         display: 'flex',
         width: '100%',
         height: '80vh',
-        backgroundColor: '#121212',
+        backgroundColor: 'bg.primary',
         justifyContent: 'center',
         alignItems: 'center',
         color: 'gray',
@@ -60,7 +60,7 @@ const Contact = ({ id }) => {
         width: '100%', 
         pt: {xs:'none', sm:'4rem', 
         fontFamily: 'Tekur',
-        color: '#d2824a',
+        color: 'txt.primary',
         },
         mb: '2rem'}}>
         CONNECT WITH ME
@@ -74,10 +74,10 @@ const Contact = ({ id }) => {
               input: { color: 'whitesmoke' },
               label: { color: 'gray' },
               '& .MuiFilledInput-underline:after': {
-                borderBottomColor: '#d2824a',
+                borderBottomColor: 'txt.primary',
               },
               '& label.Mui-focused': {
-                color: '#d2824a',
+                color: 'txt.primary',
               },
             }}
         />
@@ -91,10 +91,10 @@ const Contact = ({ id }) => {
               input: { color: 'whitesmoke' },
               label: { color: 'gray' },
               '& .MuiFilledInput-underline:after': {
-                borderBottomColor: '#d2824a',
+                borderBottomColor: 'txt.primary',
               },
               '& label.Mui-focused': {
-                color: '#d2824a',
+                color: 'txt.primary',
               },
             }}
         />
@@ -109,18 +109,18 @@ const Contact = ({ id }) => {
             label: { color: 'gray' },
             '& .MuiOutlinedInput-root': {
               '&.Mui-focused fieldset': {
-                borderColor: '#d2824a',
+                borderColor: 'txt.primary',
               },
             },
             '& .MuiOutlinedInput-input': {
               color: 'whitesmoke',
             },
             '& label.Mui-focused': {
-              color: '#d2824a',
+              color: 'txt.primary',
             },
           }}
         />
-        <Button type="submit" variant="contained" sx={{ backgroundColor: '#d2824a' }}>
+        <Button type="submit" variant="contained" sx={{ backgroundColor: 'txt.primary' }}>
           Send
         </Button>
       </Box>

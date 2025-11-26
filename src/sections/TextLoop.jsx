@@ -4,7 +4,7 @@ import CurvedLoop from '../Components/ReactBits/CurvedLoop';
 
 const TextLoop = () => {
   return (
-    <Box sx={{ backgroundColor: '#121212', height: '10vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <Box sx={{ backgroundColor: 'bg.primary', height: '10vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <CurvedLoop 
         marqueeText="Frontend ✦ Backend ✦ Database ✦ Automation ✦ Web Site ✦ Analytics ✦"
         speed={1}
@@ -12,7 +12,7 @@ const TextLoop = () => {
         direction="right"
         interactive={false}
         className="custom-text-style"
-        color="#d2824a"
+        color="txt.primary"
       />
     </Box>
   );
